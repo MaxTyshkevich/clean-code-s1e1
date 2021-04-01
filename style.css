@@ -5,24 +5,24 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-.matrix-presentation { /* .aaa */
+.matrix-presentation {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.matrix-presentation__background { /* .aaa img */
-    width: 100%;
+.matrix-presentation__background { 
+  width: 100%;
 }
 
-.matrix-presentation__link { /* .aaa .more_inf */
+.matrix-presentation__link {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .matrix-presentation  { /* .aaa */
+  .matrix-presentation { 
      text-align: center;
   }
 
@@ -41,7 +41,7 @@ body {
     flex-grow: 1
 }
 
-.task-row-wrapper {
+.section-add__wrapper{ /* .task-row-wrapper */
     display: flex;
 }
 
@@ -76,7 +76,7 @@ button:hover {
 
 /* Heading */
 h3,
-label[for='new-task'] {
+.section-add__label { /* label[for='new-task'] */
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -104,17 +104,22 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for='new-task'] {
+.section-add__label { 
     display: block;
     margin: 0 0 20px;
 }
 
-input#new-task {
+.section-add__task { 
     width: 318px;
 }
+ .section-add{
+  margin: 1em 0;
+ }
 
-p > button:hover {
-    color: #0fc57c;
+ .section-add__title {
+  margin-bottom: 1em;
+  padding: 0;
+  border: 0;
 }
 
 /* Task list */
