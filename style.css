@@ -5,24 +5,24 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-.aaa {
+.matrix-presentation { /* .aaa */
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.aaa img {
+.matrix-presentation__background { /* .aaa img */
     width: 100%;
 }
 
-.aaa .more_inf {
+.matrix-presentation__link { /* .aaa .more_inf */
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .aaa {
+  .matrix-presentation  { /* .aaa */
      text-align: center;
   }
 
