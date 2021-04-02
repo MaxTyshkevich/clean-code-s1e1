@@ -124,7 +124,7 @@ input[type="text"]:focus {
 }
 
 /* Task list */
-li {
+.task-item { /* li */
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -134,9 +134,10 @@ li {
     align-items: center;
 }
 
-li > * {
+/* display: flex */
+/* li > * { 
     vertical-align: middle;
-}
+} */
 
 li > input[type="checkbox"] {
     margin: 0 10px;
