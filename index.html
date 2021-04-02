@@ -33,7 +33,7 @@
             <img src="./remove.svg">
           </button>
         </li>
-        <li class="editMode incomplete-tasks__elem">
+        <li class="editMode incomplete-tasks__elem task-item">
           <input type="checkbox" class="task-item__complited">
           <label class="task task-item__discription">Go Shopping</label>
           <input type="text" value="Go Shopping" class="task">
@@ -44,15 +44,15 @@
       </li>
     </ul>
     </section>
-    <section>
-      <h3>Completed</h3>
-      <ul id="completed-tasks">
-        <li>
-          <input type="checkbox" checked>
-          <label class="task">See the Doctor</label>
+    <section class="completed">
+      <h3 class="completed__title">Completed</h3>
+      <ul id="completed-tasks" class="completed__list completed-tasks">
+        <li class="completed-tasks__elem task-item">
+          <input type="checkbox" checked class="task-item__complited">
+          <label class="task task-item__discription">See the Doctor</label>
           <input type="text" class="task">
-          <button class="edit">Edit</button>
-          <button class="delete">
+          <button class="edit task-item__edit">Edit</button>
+          <button class="delete task-item__delete">
           <img src="./remove.svg"></button>
         </li>
       </ul>
