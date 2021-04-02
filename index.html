@@ -24,22 +24,23 @@
     <section class="todo">
       <h3 class="todo__title">Todo</h3>
       <ul id="incompleteTasks" class="todo__list incomplete-tasks">
-        <li class="incomplete-tasks__elem">
-          <input type="checkbox">
-            <label class="task">Pay Bills</label>
+        <li class="incomplete-tasks__elem task-item">
+          <input type="checkbox" class="task-item__complited">
+            <label class="task task-item__discription">Pay Bills</label>
           <input type="text">
-          <button class="edit">Edit</button>
-          <button class="delete">
-          <img src="./remove.svg"></button>
+          <button class="edit task-item__edit">Edit</button>
+          <button class="delete task-item__delete">
+            <img src="./remove.svg">
+          </button>
         </li>
         <li class="editMode incomplete-tasks__elem">
-          <input type="checkbox">
-          <label class="task">Go Shopping</label>
+          <input type="checkbox" class="task-item__complited">
+          <label class="task task-item__discription">Go Shopping</label>
           <input type="text" value="Go Shopping" class="task">
-          <button class="edit">Save</button>
-          <button class="delete">
+          <button class="edit task-item__edit">Save</button>
+          <button class="delete task-item__delete">
             <img src="./remove.svg">
-        </button>
+          </button>
       </li>
     </ul>
     </section>
