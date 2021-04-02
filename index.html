@@ -13,47 +13,49 @@
   </div>  
   <div class="centered-main-page-element">
     <section id="topSectionForAddingElementToList" class="section-add">
-      <h3 class="section-add__title">
+      <h3 class="section-add__title title">
         <label for="new-task" class="section-add__label">Add Item</label>
       </h3>
       <div class="task-row-wrapper section-add__wrapper">
-        <input id="new-task" type="text" class="task section-add__task">
-        <button class="section-add__button">Add</button>
+        <input id="new-task" type="text" class="task section-add__task input input--text">
+        <button class="section-add__button button">Add</button>
       </div>
     </section>
     <section class="todo">
-      <h3 class="todo__title">Todo</h3>
-      <ul id="incompleteTasks" class="todo__list incomplete-tasks">
+      <h3 class="todo__title title">Todo</h3>
+      <ul id="incompleteTasks" class="todo__list incomplete-tasks list">
         <li class="incomplete-tasks__elem task-item">
-          <input type="checkbox" class="task-item__complited">
+          <input type="checkbox" class="task-item__complited input">
             <label class="task task-item__discription">Pay Bills</label>
-          <input type="text">
-          <button class="edit task-item__edit">Edit</button>
-          <button class="delete task-item__delete">
-            <img src="./remove.svg">
+          <input type="text" class="task-item__input-task input input--text">
+          <button class="edit task-item__edit button">Edit</button>
+          <button class="delete task-item__delete button">
+            <img src="./remove.svg" class="button__icon-delete">
           </button>
         </li>
         <li class="editMode incomplete-tasks__elem task-item">
-          <input type="checkbox" class="task-item__complited">
+          <input type="checkbox" class="task-item__complited input">
           <label class="task task-item__discription">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="task">
-          <button class="edit task-item__edit">Save</button>
-          <button class="delete task-item__delete">
-            <img src="./remove.svg">
+          <input type="text" value="Go Shopping" class="input task 
+          input--text">
+          <button class="edit task-item__edit button">Save</button>
+          <button class="delete task-item__delete button">
+            <img src="./remove.svg" class="button__icon-delete">
           </button>
       </li>
     </ul>
     </section>
     <section class="completed">
-      <h3 class="completed__title">Completed</h3>
-      <ul id="completed-tasks" class="completed__list completed-tasks">
+      <h3 class="completed__title title">Completed</h3>
+      <ul id="completed-tasks" class="completed__list completed-tasks list">
         <li class="completed-tasks__elem task-item">
-          <input type="checkbox" checked class="task-item__complited">
+          <input type="checkbox" checked class="input task-item__complited">
           <label class="task task-item__discription">See the Doctor</label>
-          <input type="text" class="task">
-          <button class="edit task-item__edit">Edit</button>
-          <button class="delete task-item__delete">
-          <img src="./remove.svg"></button>
+          <input type="text" class="task input task-item__input-task">
+          <button class="edit task-item__edit button">Edit</button>
+          <button class="delete task-item__delete button">
+            <img src="./remove.svg" class="button__icon-delete">
+          </button>
         </li>
       </ul>
     </section>
