@@ -174,10 +174,6 @@ body {
 }
 
 /* Completed */
-.completed__list .task-item__description {
-    text-decoration: line-through;
-    color: #888;
-
 /* ul#completed-tasks label {
     text-decoration: line-through
     color: #888;
